@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form Validation Demo</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+    <!-- We can achieve simple form validation using html5 by using the attribute required in the input tag and also,
+         by using the email input type to validate a universally acceptable email. 
+         Note: we can achieve custom validation by use of javascript, which is a little advanced.
+
+         Example Usage of required tag:
+            <input id="email1" type="email" placeholder="email" required/>
+         or,
+            <input id="email1" type="email" placeholder="email" required="true"/>
+
+    -->
+
+    <h1>Sign In</h1>
+    <form id="form1" method="GET">
+        <label for="email1">Email:</label>
+        <input id="email1" type="email" placeholder="email" required/>
+        
+        <label for="pass1">Password:</label>
+        <input id="pass1" type="password" placeholder="password" required/>
+
+        <input type="submit" />
+    </form>
+
+    <!--
+        For the form above, if we do not fill the form properly, we will not be able to submit the data to the domain/resource
+        mentioned in the action attribute.
+    -->
+</body>
+</html>
