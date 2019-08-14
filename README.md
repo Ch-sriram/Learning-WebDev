@@ -15,3 +15,5 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
    1. HTML Tables: [HTMLTables.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/HTMLTables.html)
    2. Quiz III - Pokemon Exercise: [PokemonExercise_quiz3.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/PokemonExercise_quiz3.html)
    3. Form Example: [form.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/form.html)
+   4. Form w. Label Example: [label.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/label.html)
+   

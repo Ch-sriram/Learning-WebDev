@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Label Demo</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+    <!-- 
+        Labels are used to specify inputs in a form in a much better way so that it can also help the visually challenged
+        people to see what they're trying to input into the form or anything else.
+        There are 2 ways to label the inputs:
+     -->
+
+    <!-- 1. We simply enclose the input tag inside the label tag and give a label as follows: -->
+    <h1>Sign In</h1>
+    <form name="form1">
+        <label>
+            Username:
+            <input name="uname1" type="text" placeholder="username" />
+        </label>
+        <label>
+            Password:
+            <input name="pass1" type="password" placeholder="password" />
+        </label>
+        <input type="submit" />
+    </form>
+
+    <br/><br/>
+    
+    <!-- 2. We use the for attribute of the label tag and mention the id of the input tag which the respective label is connected to -->
+    <h1>Go to Wikipedia!</h1>
+    <form id="form2" action="https://www.wikipedia.org" method="GET">
+        <label for="uname2">Username:</label>
+        <input id="uname2" type="text" placeholder="username" />
+        
+        <label for="pass2">Password:</label>
+        <input id="pass2" type="password" placeholder="password" />
+
+        <input type="submit" />
+    </form>
+</body>
+</html>
