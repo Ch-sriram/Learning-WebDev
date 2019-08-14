@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Radio Button, Select Tag & Textarea Tag Demo</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<!-- 
+		We use the Radio Button to give the user to choose from a list of items, a single thing.
+		We use the Dropdown menu to also do the same.
+		We use the textarea in the case where we need to take an input in terms of a paragraph.
+
+		Their usage is shown below:
+	-->
+	<form name="form1">
+		<!-- Radio Button Example -->
+		<p>Do you like Cats or Dogs?</p>
+		<label for="cats">Cats</label>
+		<input type="radio" id="cats" name="petChoice" value="CATS"/>
+		<label for="dogs">Dogs</label>
+		<input type="radio" id="dogs" name="petChoice" value="DOGS"/>
+		<br/> <br/>
+
+		<!-- Dropdown Example using <select> tag -->
+		<p>What is your current mood?</p>
+		<p>
+			<select name="mood">
+				<option value="Happy">:)</option>
+				<option value="Neutral">:|</option>
+				<option value="Sad">:(</option>
+				<option value="LMAO">xD</option>
+				<option value="LMFAO">x'D</option>
+				<option value="Crying">:'(</option>
+				<option value="Meh">:p</option>
+			</select>
+		</p>
+		
+		<!-- <textarea> tag example usage: -->
+		<p>Fill out your Bio</p>
+		<textarea rows="10" cols="50" name="bio" id="textarea" placeholder="Type in your Bio here!"></textarea>
+		<br/>
+
+		<!-- If a <button> is used at the end of the form, it automatically acts as a Submit button -->
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>

@@ -17,3 +17,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
    3. Form Example: [form.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/form.html)
    4. Form w. Label Example: [label.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/label.html)
    5. Simple Form Validation using HTML5: [formValidation_simple.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/formValidation_simple.html)
+   6. Radio Button, Dropdown Menu & Text Area: [radio_select_textarea.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/radio_select_textarea.html)
