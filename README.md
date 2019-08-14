@@ -1,4 +1,4 @@
-# Learning-WebDev
+# Learning Web Development
 Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/the-web-developer-bootcamp/
 
 <hr/>
