@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Tables</title>
+</head>
+<body>
+	<!-- 
+		In general, we don't use any attributes for styling inside <table> tag, because in HTML5, we do it using CSS. But here, without the border attribute, we can't differentiate between cells in the table 
+	-->
+	<table border="1">
+		<tr>
+			<th>Colour</th><!-- Stands for Table Header -->
+			<th>Thing/Object</th>
+		</tr>	
+		<tr> <!-- Stands for table row -->
+			<td>Red</td><!-- Stands for table data -->
+			<td>Car</td>
+		</tr>
+		<tr>
+			<td>Green</td>
+			<td>Leaf</td>
+		</tr>
+	</table>
+
+	<!-- 
+		In HTML5, we give emphasis to the Semantic Markup in the page. Therefore, for the Table Header Infromation, in HTML5, we have a new tag known as <thead>. All the Table header Information should be given inside the <thead> tag. 
+
+		And the Table Body information should be given in the <tbody> tag. 
+		Both the tags do not make any visual changes, but the screen reader software when reading off of the pages with tables, can read and differentiate between a table header and a normal table body data, and therefore, the reading would be done much accurately and in a better fashion.
+		
+		The example is given below: 
+	-->
+
+	<br><br>
+
+	<h3>Chandrabhatta Family Information</h3>
+	<table border="5">
+		<thead>
+			<tr>
+				<th>Name</th><!-- Stands for Table Header -->
+				<th>Age</th>
+				<th>Role</th>
+			</tr>	
+		</thead>
+		<tbody>
+			<tr> <!-- Stands for table row -->
+				<td>Ramakrishna</td><!-- Stands for table data -->
+				<td>63</td>
+				<td>Dad</td>
+			</tr>
+			<tr>
+				<td>Alivelu</td>
+				<td>52</td>
+				<td>Mom</td>
+			</tr>
+			<tr>
+				<td>Siva K</td>
+				<td>29</td>
+				<td>Eldest Son</td>
+			</tr>
+			<tr>
+				<td>Sriram</td>
+				<td>23</td>
+				<td>Second Son</td>
+			</tr>
+			<tr>
+				<td>Swaroop</td>
+				<td>22</td>
+				<td>Youngest Son</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

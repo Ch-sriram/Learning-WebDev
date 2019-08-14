@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	metadata goes in head
+	<!-- This above line is treated as html, because it is uncommented, and therefore, it will displayed onto the browser -->
+	
+	<!-- metadata goes in head -->
+	<!-- This above line is commented, therefore, it won't be displayed on to the browser -->
+
+	<!-- Titles are important for 2 things:
+	1- Titles generally show the name on the tab
+	2- (very important) Titles are important for search engines to determine and show the page upon a particular search term. The title of a page determines whether that search will result in the page being shown in the results or not. -->
+	<title>My first page</title>
+</head>
+<body>
+	<!-- content goes in the body -->
+
+	<h1>This is my first tag!!</h1>
+	<h2>This is an h2 tagged line</h2>
+	<h6>This is an h6 tagged line</h6>
+
+	<!-- These are block level elements, i.e., each element from h1 to h6 gets their own lines, i.e., even if we write the code for h1, h2, ... , h6 in a joined fashion, each element will get their own line, i.e., -->
+	<h4>This is an h4 heading</h4><h5>This is h5 heading</h5><h3>This is h3 heading</h3>
+
+	<!-- paragragh tags are also block level elements, i.e., they also are represented in a new line for each of the <p> tag -->
+	<p>asjdvsjdfds fojsdnfjnsdfijvnadivjnsjdvnksljdnvkljsdnfvkljndsfkn</p>
+	<p>The Above text was just some random text within the paragraph tag, as is this one</p>
+
+	<!-- <strong> is an in-line tag used for bolding a text. Previously, the <b> tag was used to boldify a text, but from HTML5, the concept of Semantic Markup is being introduced and therefore, <b> tag is deprecated, whereas, a more verbose tag is used, which is <strong> -->
+
+	<!-- Previously, <i> tag was used to italisize a text, now it is deprecated in HTML5, as the concept of Semantic Markup is being used and the tags should mean something more now. Therefore, tag <i> is replaced by <em> -->
+	<p>
+	<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <em>industry's standard dummy text</em> ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</p>
+
+	<!-- Paragraph tag (<p>) & Header tags (<h1>,<h2>,...,<h6>) are Block level elements, and <strong> and <em> tags are in-line elements. -->
+
+
+
+
+	<!-- HTML Lists:
+	There are two kinds of Lists.
+	1- Ordered Lists : <ol>
+	2- Unordered Lists : <ul> -->
+
+	<ol>
+		<!-- This does nothing until and unless there are <li> tags -->
+	</ol>
+
+	<ul>
+		<!-- This has the same effect as the above piece of code, i.e., nothing happens -->
+	</ul>
+
+	<!-- Note: An ordered/unordered list on its own doesn't mean anything. We need a list item tag represented by <li> to list the elements of a list -->
+	<p><strong>This is an Ordered List:</strong></p>
+	<ol>
+		<li>Red</li>
+		<li>Green</li>
+		<li>Blue</li>
+		<!-- This list will be shown with numbers as the points -->
+		<!-- Generally, we can nest a list, inside a list, i.e.,  -->
+		<li>
+			Yellow
+			<ul>
+				<li>Bright</li>
+				<li>Sun</li>
+				<li>Maggi</li>
+				<!-- We can again nest inside a nested list and keep on having as many nestings as we want to have -->
+				<li>
+					Sunflower
+					<ol>
+						<li>Oil</li>
+						<li>Seeds</li>
+						<li>Fields</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+	</ol>
+
+	<!-- <br> This is a break tag. This tag doesn't need any closing tag -->
+	<p><strong>This is an Unordered List:</strong></p>
+	<ul>
+		<!-- We can nest a tag inside an <li> tag as shown below -->
+		<li><strong>Red</strong></li>
+		<li>Green</li>
+		<li>Blue</li>
+		<!-- This list will be shown with bullets as the points -->
+	</ul>
+
+</body>
+</html>
