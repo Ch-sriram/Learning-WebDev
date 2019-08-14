@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Demo</title>
+    <meta charset = "utf-8"/>
+</head>
+<body>
+    <!-- action: where the form sends data to. Default action is to send the data to itself (to the same page) -->
+    <!-- method: what HTTP Method is being used (GET/POST). Default method (if not mentioned) is GET.  -->
+        <!-- if GET method is used, then a Query String is generated, which basically has all the form data in key:value pairs.
+             This Query String can be seen address bar of the browser, where the query string starts with a Question mark (?),
+             and the key:value pairs (the data) from the form is/are separated by Ampersand (&).
+        -->
+
+    <!--
+        Example Usage of action & method:
+        <form action="https://www.wikipedia.org" method="GET">    
+            we're sending the form data to the domain: wikipedia.org using the GET Method, therefore, a Query String will be
+            visible on the address bar.
+    -->
+    <h1>Sign In</h1>
+    <form name="form1">
+        <input name="uname1" type="text" placeholder="username" />
+        <input name="pass1" type="password" placeholder="password" />
+        <input type="submit" />
+    </form>
+
+    <br/><br/>
+    
+    <h1>Go to Wikipedia!</h1>
+    <form name="form2" action="https://www.wikipedia.org" method="GET">
+            <input name="uname2" type="text" placeholder="username" />
+            <input name="pass2" type="password" placeholder="password" />
+            <input type="submit" />
+    </form>
+        
+</body>
+</html>
