@@ -35,3 +35,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       4. Selectors in CSS:
          1. Static To-Do List using Basic Selectors in CSS: HTML File - [selectors_css.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/selectors_css.html) | CSS File - [selectors_css.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/selectors_css.css)
          2. Advanced Selectors in CSS: HTML File - [selectors_advanced.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/selectors_advanced.html) | CSS File - [selectors_advanced.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/selectors_advanced.css)
+         3. Inheritence, Specificity & Cascading in CSS: [inheritence_specificity.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/inheritence_specificity.html)

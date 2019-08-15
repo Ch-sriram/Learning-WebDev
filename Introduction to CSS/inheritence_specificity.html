@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Inheritence & Specifity</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		body {
+			color: red;
+			/* All the text inside the body, i.e., every element will have their text coloured red */
+		}
+        ul {
+            color: darkmagenta;
+            /* 
+                This overrides the above rule and this will also colour the <li> tags into darkmagenta, 
+                because list items are children to <ul> tag. 
+            */
+        }
+        li {
+            color: darkgreen;
+            /* 
+                This rule overrides the above rule, as this is more specific to the list items, and therefore, all the list
+                items will be coloured dark green.
+            */
+        }
+        .amazing {
+            background: lightgoldenrodyellow;
+            border: 2px dotted coral;
+            /* Since this is a class selector, the rule inside this selector overrides all the rules written in the aforementioned selectors */
+        }
+        #special {
+            border: 4px solid firebrick;
+        }
+        /* 
+            Specificity is a calculated number given to a specific element/class/id/pseudo-class/pseudo-element depending on
+            their priorities. The Priorities are given as follows [in order of lowest priority ot highest]:
+            1. Type Selectors (aka Element Selectors) - eg. h1 {...}, ul li {...}, etc
+            2. Class Selectors [eg. .example {...}], Attribute Selectors [eg. a[href="http://www.google.com"] {...}]
+               and pseudo-class selectors [eg. a:hover {...}, a:visited {...}, etc]
+            3. ID Selectors [eg. #special {...}]
+        */
+	</style>
+</head>
+<body>
+	<p>HELLO!</p>
+	<ul>
+		<li id="special" class="amazing">Sriram</li>
+		<li>Swaroop</li>
+		<li class="amazing">Shiva</li>
+		<li>Karthik</li>
+		<li class="amazing">Rohit</li>
+	</ul>
+</body>
+</html>
