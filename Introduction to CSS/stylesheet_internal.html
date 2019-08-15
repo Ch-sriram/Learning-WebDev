@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML w. Internal Styling using &lt;style&gt; tag</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		/*
+			CSS has Rules. These rules define the look of a HTML Page.
+			Syntax:
+					selector {
+						property1: value;
+						property2: value;
+						property3: value;
+						................
+						propertyN: value;
+					}
+			
+			There are a lot of selectors, but in this example, we will look into the Element Selector.
+		*/
+		h1 {
+			color: orange;
+		}
+		
+		h4 {
+			color: cyan;
+		}
+
+		li {
+			color: violet;
+		}
+
+		h1 {
+			color: magenta;
+		}
+
+		/*
+			When there are conflicting CSS Rules, the final rule is taken into consideration as the appropriate rule.
+		*/
+
+	</style>
+</head>
+<body>
+	<h1>About Me</h1>
+	<h4>Hobbies:</h4>
+	<ul>
+		<li>Reading</li>
+		<li>Playing</li>
+		<li>Partying</li>
+	</ul>
+</body>
+</html>

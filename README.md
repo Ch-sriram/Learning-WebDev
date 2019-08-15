@@ -19,3 +19,9 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
    5. Simple Form Validation using HTML5: [formValidation_simple.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/formValidation_simple.html)
    6. Radio Button, Dropdown Menu & Text Area: [radio_select_textarea.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/radio_select_textarea.html)
    7. Form Exercise: [form_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/form_exercise.html)
+
+3. Introduction to CSS
+   1. CSS Basics:
+      1. Inline Styling: [stylesheet_inline.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_inline.html)
+      2. Internal Styling using &lt;style&gt; tag: [stylesheet_internal.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_internal.html)
+      3. External Styling using &lt;link&gt; tag: HTML File: [stylesheet_external.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_external.html) | CSS File: [stylesheet_external.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/stylesheet_external.css)
