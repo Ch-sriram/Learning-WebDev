@@ -23,5 +23,5 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
 3. Introduction to CSS
    1. CSS Basics:
       1. Inline Styling: [stylesheet_inline.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_inline.html)
-      2. Internal Styling using &lt;style&gt; tag: [stylesheet_internal.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_internal.html)
-      3. External Styling using &lt;link&gt; tag: HTML File: [stylesheet_external.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_external.html) | CSS File: [stylesheet_external.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/stylesheet_external.css)
+      2. Internal Styling using <code>&lt;style&gt;</code> tag: [stylesheet_internal.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_internal.html)
+      3. External Styling using <code>&lt;link&gt;</code> tag: HTML File: [stylesheet_external.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_external.html) | CSS File: [stylesheet_external.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/stylesheet_external.css)
