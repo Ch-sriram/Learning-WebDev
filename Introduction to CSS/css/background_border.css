@@ -1,0 +1,43 @@
+/*
+    We can change the background by changing it into a colour of our choice, 
+    or by changing the background into an image of our choice.
+
+    Example:
+        This is for changing the background to an image:
+        h1 {
+            background: url(some_image.jpeg);
+        }
+        To avoid tiling in the background: background-repeat: no-repeat;
+        To fill the background if it is small: background-size: cover;
+
+*/
+
+body {
+    /* background: url(https://dumielauxepices.net/sites/default/files/grain-clipart-vector-625203-6520722.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: darkgoldenrod;
+    text-align: center;
+}
+
+div {
+    background: firebrick;
+}
+
+h1 {
+    /* border-width: 0.1em;
+    border-color: rgb(255,100,80);
+    border-style: dashed; */
+
+    border: 0.1em dashed rgb(255,100,80);
+}
+
+h3 {
+    background: rgb(255,100,80);
+}
+
+li {
+    list-style-type: none;
+    padding-right: 2.5em;
+    font-weight: 550;
+}
