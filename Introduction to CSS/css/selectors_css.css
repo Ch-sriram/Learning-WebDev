@@ -1,0 +1,33 @@
+/* 
+    There are 3 types of Basic Selectors in CSS and they're:
+    1. Element Selector: we use the rule with the name of an Element in HTML.
+    2. ID Selector: used to apply CSS Rules on Single/Special Elements. An id once given to an attribute cannot be repeated
+    by any other element. Therefore, ID Selectors typically apply to a single element.
+    3. Class Selector: used to apply CSS Rules on a Group of Elements together. Therefore, we can have many elements in HTML
+    have the same class name.
+*/
+
+
+
+/* Element Selector Usage: Element's name is used directly to mention the CSS rule*/
+body {
+    background: lightgoldenrodyellow;
+}
+
+li {
+    list-style-type: none;
+    border: 2px solid firebrick;
+    margin-left: -2.5em;
+}
+
+
+/* ID Selector Usage: Octothorpe (#) before the id name is used, to mention the CSS rule */
+#special {
+    background: gold;
+}
+
+
+/* Class Selector Usage: Dot (.) before the class name is used, to mention the CSS rule */
+.completed {
+    text-decoration: line-through;
+}
