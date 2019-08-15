@@ -4,7 +4,7 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
 <hr/>
 
 **Index**
-1. HTML
+1. Hyper Text Markup Language (HTML)
    1. Introduction to HTML
       1. My First Page: [firstPage.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20HTML/firstPage.html)
       2. Quiz I - Recreate the List: [quiz1.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20HTML/quiz1.html)
@@ -21,7 +21,7 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       6. Radio Button, Dropdown Menu & Text Area: [radio_select_textarea.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/radio_select_textarea.html)
       7. Form Exercise: [form_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/form_exercise.html)
 
-1. CSS
+1. Cascading Style Sheets (CSS)
    1. Introduction to CSS
       1. CSS Basics:
          1. Inline Styling: [stylesheet_inline.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_inline.html)
