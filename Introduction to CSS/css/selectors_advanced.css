@@ -1,0 +1,65 @@
+/* 
+    The 3 Basic CSS Selectors we have are:
+    1. Element Selector
+    2. id Selector
+    3. class Selector
+
+    There are many Advanced CSS Selectors, but out of the lot of them, the important ones are:
+    1. Universal Selector (aka Star (*) Selector)
+    2. Descendent Selector
+    3. Adjacent Selector
+    4. Attribute Selector
+    5. nth-of-type Selector
+*/
+
+
+
+/* 
+    1. Universal Selector: * is used to select the entire document. Therefore, whatever rule is given inside the *, it applies to
+                           everything inside the HTML Document. Example Usage shown below.
+*/
+
+* {
+    /* Because of the rule below, every single element in the document will now have a solid grey border of size 1 pixel */
+    border: 1px solid grey;
+}
+
+
+
+/* 2. Descendent Selector: Example usage is as follows: */
+li a {
+    color: crimson;
+    /* Now, all the anchor tags (<a>) that are the direct child of a list tag (<li>) will be in crimson colour */
+}
+
+
+/* 3. Adjacent Selector: Example usage is as follows: */
+h4 + ul {
+    border: 4px solid firebrick;
+    /* All the <ul>'s that are in the same level as that of the first <h4>, will now have the aforementioned rule apply to them */
+}
+
+
+/* 4. Attribute Selector: Example usage is as follows: */
+a[href="http://www.google.com"] {
+    background: gold;
+}
+/* Another Example:
+    input[type="text"] {
+        border: 1px dotted cyan;
+        margin-right: 4px;
+    }
+*/
+
+
+
+/* 5. nth-of-type Selector: Example usage is as follows: */
+ul:nth-of-type(3) {
+    background: lightpink;
+    /* Only the 3rd <ul> in the document from the top will be affected with the aforementioned rule */
+}
+
+li:nth-of-type(odd) {
+    background: lightcoral;
+    /* Every odd <li> in the document will be affected from the aforementioned rule */
+}
