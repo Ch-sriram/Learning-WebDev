@@ -4,7 +4,7 @@ p {
 }
 
 /* Content - width & height -- Blue Coloured in Chrome Inspector */
-#a1 {
+#p0 {
     width: 50%; 
     /*
         Here the width is 50% of the parent's content, 
@@ -15,43 +15,43 @@ p {
 
 
 /* Padding - Space on the inside of the border till the content -- Green Coloured in Chrome Inspector */
-#a2 {
+#p1 {
     padding: 10px;
     /* There'll be 10 pixels of padding on all the sides from content till border */
 }
 
-#a3 {
+#p2 {
     padding-left: 40px;
 }
 
 /* Margin - Space on the Outside of the Border -- Coloured Peach-Orange in the Chrome Inspector */
-#a4 {
+#p3 {
     margin: 70px;
 }
 
-#a5 {
+#p4 {
     margin-bottom: 90px;
 }
 
 /* short-hand rule specification */
-#a6 {
+#p5 {
     /* margin: top right bottom left*/
     margin: 20px 40px 60px 100px;
 }
 
-#a7 {
+#p6 {
     /* to center an element, we use margin: 0 auto 0 auto */
     margin: 0 auto 0 auto;
     width: 50%
 }
 
-#a8 {
+#p7 {
     /* to center an element, we can use an even shorter way to do it as follows: */
     margin: 0 auto;
     width: 50%;
 }
 
-#a9 {
+#p8 {
 /* 
     With the same syntax as mentioned above, we can add measurement (px or em)
     to both top and bottom at the same time as follows:
@@ -60,7 +60,7 @@ p {
     width: 50%;
 }
 
-#a10 {
+#p9 {
 /* 
     With the same syntax as mentioned above, we can add measurement (px or em)
     to both top and bottom & left and right at the same time as follows:
