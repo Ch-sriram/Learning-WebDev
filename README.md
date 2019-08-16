@@ -37,3 +37,7 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
          2. Advanced Selectors in CSS: HTML File - [selectors_advanced.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/selectors_advanced.html) | CSS File - [selectors_advanced.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/selectors_advanced.css)
          3. Inheritence, Specificity & Cascading in CSS: [inheritence_specificity.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/inheritence_specificity.html)
       5. CSS Exercise using Different types of Selectors: HTML File - [selectors_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/selectors_exercise.html) | CSS File - [selectors_exercise.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/selectors_exercise.css)
+      
+   2. Intermediate CSS:
+      1. Styling Fonts/Text in CSS:
+         1. Inbuilt Fonts: HTML File - [](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/fonts.html) | CSS File - [](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/fonts.css)

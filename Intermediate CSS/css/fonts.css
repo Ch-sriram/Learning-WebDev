@@ -1,0 +1,79 @@
+/* font-family */
+p {
+    font-family: Consolas;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+/* 
+font-size
+    There are 2 units used in font-size property:
+    1. px (static)  -- absolute size with no relation to the parent tag
+    2. em (dynamic) -- relative size to the parent tag
+*/
+
+/* 1. Usage of px */
+body {
+    font-size: 10px;
+}
+
+/* 2. Usage of em */
+h1 {
+    font-size: 5.0em;
+}
+
+p {
+    font-size: 2.0em;
+}
+
+span {
+    font-size: 2.0em;
+}
+
+/* 
+font-weight 
+    how thick the glyph of a font are.
+    There are 7 values we can use - 100, 200, 300, ..., 800 for some fonts.
+    But generally, for the inbuilt fonts, we generall use names like bold, bolder & normal.
+
+*/
+p {
+    font-weight: bold;
+}
+
+/* 
+line-height
+    used for line spacing.
+*/
+p {
+    line-height: 1.5;
+}
+
+/* text-align 
+    it controls the alignment of some text. left, center or right.
+*/
+h1 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    text-align: center;
+}
+
+/* text-decoration 
+    used to give an underline, overline or a line-through to the text.
+*/
+
+p {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: line-through;
+}
