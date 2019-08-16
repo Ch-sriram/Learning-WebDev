@@ -40,4 +40,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       
    2. Intermediate CSS:
       1. Styling Fonts/Text in CSS:
-         1. Inbuilt Fonts: HTML File - [](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/fonts.html) | CSS File - [](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/fonts.css)
+         1. Inbuilt Fonts: HTML File - [fonts.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/fonts.html) | CSS File - [fonts.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/fonts.css)
