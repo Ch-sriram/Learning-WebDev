@@ -2,7 +2,8 @@ body {
     border: 20px solid #BDC3C7;
     margin: 20px auto;
     padding: 0 20px;
-    width: 56%;
+    width: 80%;
+    max-width: 750px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
