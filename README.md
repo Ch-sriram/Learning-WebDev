@@ -39,6 +39,8 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       5. CSS Exercise using Different types of Selectors: HTML - [selectors_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/selectors_exercise.html) | CSS - [selectors_exercise.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/css/selectors_exercise.css)
       
    2. Intermediate CSS:
-      1. Styling Fonts/Text in CSS:
+      1. Font/Text Styling:
          1. Inbuilt Fonts: HTML - [fonts.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/fonts.html) | CSS - [fonts.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/fonts.css)
          2. Custom Fonts (Google Fonts): HTML - [fonts_custom.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/fonts_custom.html) | CSS - [fonts_custom.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/fonts_custom.css)
+      2. The Box Model:
+         1. Content, Padding, Border & Margin Property of an Element: HTML - [box_model.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/box_model.html) | CSS - [box_model.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/box_model.css)
