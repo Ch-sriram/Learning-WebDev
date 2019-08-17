@@ -1,4 +1,4 @@
-*Note: View the cdn_links.md in Raw, see the links to <strong>Latest compiled and minified CSS</strong> & Optional theme* 
+*Note: View the cdn_links.md in Raw to see the links for <strong>Latest compiled and minified CSS</strong> & <strong>Optional theme</strong>* 
 
 ### Latest compiled and minified CSS
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
