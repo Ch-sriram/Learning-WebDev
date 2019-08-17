@@ -1,6 +1,6 @@
 # CDN Links
 
-*Note: View the cdn_links.md in Raw to see the link for <strong>Latest compiled and minified CSS</strong>* 
+*Note: View this README.md in Raw to see the link for <strong>Latest compiled and minified CSS</strong>* 
 
 ### Latest compiled and minified CSS
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
