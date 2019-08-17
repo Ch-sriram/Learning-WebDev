@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Grid System</title>
+	<meta charset="utf-8"/>
+	<!-- Bootstrap v3.4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	
+	<style type="text/css">
+		.coral {
+            background: coral; 
+            border: 2px solid darkblue;
+            padding: 10px;
+            font-weight: bold;
+		}
+		.cyan {
+			background: cyan;
+			border: 1px dashed green;
+		}
+		body {
+			margin: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+		In the Bootstrap's Grid System, there are certain rules, and they're: 
+			1. Every Grid should reside inside a .container or .container-fluid class
+			2. Each .row class is of 12 column points.
+			3. If we want to have 4 columns of equal width, we can do the following:
+	-->
+	<h3>Resize the browser to check the changes made in this Page</h3>
+
+	#1: These blocks will be stacked on each other as soon as we resize this browser to a medium sized device's (md) view
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 coral">col-lg-3</div>
+			<div class="col-lg-3 coral">col-lg-3</div>
+			<div class="col-lg-3 coral">col-lg-3</div>
+			<div class="col-lg-3 coral">col-lg-3</div>
+		</div>
+	</div>
+	<br/>
+	<!-- 
+			4. The class .col-lg-3 says that each of the div here gets 3 column points out of the 12. Therefore, because of that, 
+			we can only have 4 columns in this row.
+			5. There are 4 sizes, and these sizes refer to the size of the device that the page is currently being viewed in. The sizes are large (lg), medium (md), small (sm) & extra-small (xs). 
+			6. In the above example, we used lg in col-lg-3, which means: "When this page is used in a laptop/desktop device, please divide this row into 4 equal part of 3 points each. If it is resized, the columns get stacked on each other, as the page is now reaching the size of tablet (medium sized device), and for further resizing that makes the page even smaller, keep the columns stacked on top of each other".
+			7. To make sure that the aforementioned information is nullified, we change the size to md/sm/xs depending on the need, and in that size, we decide how many columns we want to view at max, by giving the points to the columns out of 12. The following example will be good enough to make us understand what will happen if we resize the browser: 
+	 -->
+
+	#2: These blocks will be stacked on each other as soon as we resize this browser to a small sized device's (sm) view
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 coral">col-lg-3</div>
+		</div>
+	</div>
+	<br/>
+
+	#3: These blocks will be stacked on each other as soon as we resize this browser to a extra-small sized device's (xs) view
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 coral">col-lg-3</div>
+		</div>
+	</div>
+	<br/>
+
+	#4: These blocks will not be stacked no matter how we resize the browser window
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 coral">col-lg-3</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 coral">col-lg-3</div>
+		</div>
+	</div>
+	<br/>
+
+	<!-- 
+			8. The highest priority is given depending on the size we mentioned there. Therefore, if the class we have is md, then till the browser is resized to less than a medium sized device's view, the columns won't stack on each other. Therefore, we need not mention col-lg-xx, as that is taken care by col-md-xx. Therefore, to see it in action, check the following:
+	 -->
+	#5: These blocks will act the same as the blocks in #2
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 coral">col-lg-3</div>
+			<div class="col-md-3 coral">col-lg-3</div>
+			<div class="col-md-3 coral">col-lg-3</div>
+			<div class="col-md-3 coral">col-lg-3</div>
+		</div>
+	</div>
+	<br/>
+
+	<!-- 
+			9. We can have nested grids. Each row has 12 columns. Again, each of these columns can have any number of rows, which will again have 12 columns each. But it is inevitable that the columns are supposed to be defined inside a .row only.
+			Check the following example:
+	 -->
+
+	#6: Example of Nested Grids
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 coral">
+				<div class="row">
+					<div class="col-md-2 cyan">md-2</div>
+					<div class="col-md-2 cyan">md-2</div>
+					<div class="col-md-2 cyan">md-2</div>
+					<div class="col-md-2 cyan">md-2</div>
+					<div class="col-md-2 cyan">md-2</div>
+					<div class="col-md-2 cyan">md-2</div>
+				</div>
+			</div>
+			<div class="col-md-6 coral">
+				<div class="row">
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+					<div class="col-sm-1 cyan">sm-1</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	
+
+</body>
+</html>
