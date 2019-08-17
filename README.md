@@ -21,7 +21,7 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       6. Radio Button, Dropdown Menu & Text Area: [radio_select_textarea.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/radio_select_textarea.html)
       7. Form Exercise: [form_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20HTML/form_exercise.html)
 
-1. Cascading Style Sheets (CSS)
+2. Cascading Style Sheets (CSS)
    1. Introduction to CSS
       1. CSS Basics:
          1. Inline Styling: [stylesheet_inline.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Introduction%20to%20CSS/stylesheet_inline.html)
@@ -48,3 +48,7 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       3. Static Website Design:
          1. Image Gallery Exercise: HTML - [image_gallery.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/image_gallery.html) | CSS - [image_gallery.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/image_gallery.css)
          2. Exercise On Making A Blog From Scratch: HTML - [blog_exercise.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/blog_exercise.html) | CSS - [blog_exercise.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Intermediate%20CSS/css/blog_exercise.css)
+   
+3. Bootstrap
+   1. Bootstrap Version 3:
+      1. Basics: [buttons.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/buttons.html)
