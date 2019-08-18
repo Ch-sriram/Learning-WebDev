@@ -55,3 +55,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       2. Container, Jumbotron & Forms: [container_jumbotron_form.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/container_jumbotron_form.html)
       3. Navigation Bar: [navbar.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/navbar.html)
       4. Grid System: [grid.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/grid.html)
+      5. Image Gallery Project: HTML - [image_gallery.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/image_gallery.html) | CSS - [image_gallery.css](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap3/css/image_gallery.css)
