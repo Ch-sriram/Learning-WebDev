@@ -64,3 +64,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       4. Utilities:
          1. Borders & Spacing: [utility_border_spacing.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/utility_border_spacing.html)
          2. Responsive Breakpoints: [utility_responsive_breakpoint.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/utility_responsive_breakpoint.html)
+         3. Display: [utility_display.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/utility_display.html)
