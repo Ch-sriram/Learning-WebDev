@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Flexbox</title>
+
+    <style type="text/css">
+        #square {
+            height: 200px;
+            margin-bottom: 10px;
+        }
+    </style>
+  </head>
+  <body class="mb-5">
+    <div class="container">
+        <h1 class="display-3 text-center">Flexbox</h1>
+        class="d-flex" (By default justify-content-start is applied)
+        <div id="square" class="d-flex border border-dark"> <!-- d-flex makes the flexbox properties activated -->
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+        
+<!-- 
+    In bootstrap flexbox, the normal x-axis is from left to right, and the normal y-axis is from top to bottom.
+    By default, the .flex-row class is applied to every .d-flex class' element. If we want the content to justify towards the left,
+    we use justify-content-start, for justification on the right side, we use justify-content-end, to center things, we use
+    justify-content-center, and there're two other, which are justify-content-around & justify-content-between. By defualt,
+    .justify-content-right is applied to every element which is applied with .d-flex class.
+-->
+        class="d-flex justify-content-end"
+        <div id="square" class="d-flex border border-dark justify-content-end">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-center"
+        <div id="square" class="d-flex border border-dark justify-content-center">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+<!-- 
+    In tandem with justify-content-*, where * => start, end, center, between & around, we also have align-items-*, where * is the 
+    start, end, center, baseline & strech. .align-items-* is used to set the element in accordance with the y-axis.
+    if .align-items-* is not mentioned on an element, .align-items-stretch is applied.
+ -->
+        class="d-flex justify-content-start align-items-start"
+        <div id="square" class="d-flex border border-dark justify-content-start align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-start align-items-end"
+        <div id="square" class="d-flex border border-dark justify-content-start align-items-end">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+<!-- content is justified at end -->
+        
+        class="d-flex justify-content-end align-items-baseline"
+        <div id="square" class="d-flex border border-dark justify-content-end align-items-baseline">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-end align-items-stretch"
+        <div id="square" class="d-flex border border-dark justify-content-end align-items-stretch">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+<!-- content is justified in-between -->
+
+        class="d-flex justify-content-between align-items-start"
+        <div id="square" class="d-flex border border-dark justify-content-between align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-between align-items-end"
+        <div id="square" class="d-flex border border-dark justify-content-between align-items-end">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+<!-- content is justified around -->
+        class="d-flex justify-content-around align-items-start"
+        <div id="square" class="d-flex border border-dark justify-content-around align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-around align-items-stretch"
+        <div id="square" class="d-flex border border-dark justify-content-around align-items-stretch">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+<!-- content is justified in the center -->
+        class="d-flex justify-content-center align-items-start"
+        <div id="square" class="d-flex border border-dark justify-content-center align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        class="d-flex justify-content-center align-items-stretch"
+        <div id="square" class="d-flex border border-dark justify-content-center align-items-stretch">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+
+<!-- 
+    We can also change the direction in which the justification takes place and also, we can change the default axis to flex.
+    We use flex-column class to change the element's properties column-wise, i.e., now, whatever was done to move the elements
+    row-wise like justify-content-* would apply to elements to be affected column-wise. The classes that affected the element column-wise
+    will affect the elements row-wise, basically, a role reversal.
+    Therefore, justify-content-*, would apply on y-axis & align-items-* would apply on x-axis.
+    By default, .flex-row class is applied, therefore, we override that by applying .flow-column
+    Examples:
+ -->
+ <!-- applying flec-column -->
+        class="d-flex flex-column justify-content-start align-items-start"
+        <div id="square" class="d-flex flex-column border border-dark flex-row justify-content-start align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+        
+        class="d-flex flex-column justify-content-center align-items-center"
+        <div id="square" class="d-flex flex-column border border-dark justify-content-center align-items-stretch">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+<!-- 
+    We can also use flow-row-reverse or flow-column-reverse to reverse the direction of the affect. That is, till now, start was
+    left & end was right or start was top & end was bottom. But because of reverse, the start becomes right & end becomes left for x-axis
+    and the start becomes bottom & end becomes top for the y-axis, only when flex-row-reversed class is applied.
+ -->
+        class="d-flex flex-column-reverse justify-content-start align-items-start"
+        <div id="square" class="d-flex flex-column-reverse border border-dark justify-content-start align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+        
+        class="d-flex flex-row-reverse justify-content-center align-items-center"
+        <div id="square" class="d-flex flex-row-reverse border border-dark justify-content-start align-items-start">
+            <div class="btn btn-info btn-lg">LARGE</div>
+            <div class="btn btn-success btn-md">MEDIUM</div>
+            <div class="btn btn-warning btn-sm">SMALL</div>
+        </div>
+
+        <h1 class="display-4 text-center">Example</h1>
+        <div class="d-flex flex-column flex-md-row justify-content-around ">
+            <button class="btn-dark btn-lg mb-2">Link 1</button>
+            <button class="btn-dark btn-lg mb-2">Link 2</button>
+            <button class="btn-dark btn-lg mb-2">Link 3</button>
+            <button class="btn-dark btn-lg mb-2">Link 4</button>
+            <button class="btn-dark btn-lg mb-2">Link 5</button>
+            <button class="btn-dark btn-lg mb-2">Link 6</button>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
