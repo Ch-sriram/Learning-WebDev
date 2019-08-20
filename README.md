@@ -68,3 +68,4 @@ Auditing the course "The Web Developer Bootcamp" from : https://www.udemy.com/th
       5. Navigation Bar: [navbar.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/navbar.html)
       6. Flexbox & Grid:
          1. Flexbox Layout: [flexbox.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/flexbox.html)
+         2. Navs & Flexbox: [navs_flexbox.html](https://github.com/Ch-sriram/Learning-WebDev/blob/master/Bootstrap/Bootstrap4/navs_flexbox.html)
