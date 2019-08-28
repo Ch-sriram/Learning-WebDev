@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+
+<title>Grid & Flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-3 text-center">Grid & Flexbox</h1>
+        class="col-sm-6 bg-info"
+        <div class="row border">
+            <div class="col-sm-6 bg-info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+<!-- If we want the div above to be right aligned, we can obiously do the following: -->
+        &lt;div class="col-sm-6">&lt;/div>
+        &lt;div class="col-sm-6 bg-info">
+        <div class="row border">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6 bg-info">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+<!-- But doing by writing repetitive code is useless, we can do it using justify-content-end as follows: -->
+        class="col-sm-6 bg-info justify-content-end"
+        <div class="row border">
+            <div class="col-sm-6 bg-info justify-content-end">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+<!-- The following row has 3 columns where the middle one is longer -->
+        <div class="row border justify-content-around">
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+            <div class="col-sm-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia vitae omnis consequatur, ipsa sequi, est voluptatum, nostrum iusto laboriosam qui. Molestias, nihil a! Facere saepe quam laborum repellendus officiis modi, similique impedit omnis. Ratione saepe exercitationem placeat non odit perferendis architecto eos accusamus quia voluptatem maxime nemo recusandae, vitae porro explicabo. Vero enim consectetur temporibus animi expedita cum commodi?
+            </div>
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+<!-- We can align them w.r.t the top/bottom by using align-items-start/end as shown below: -->
+        <div class="row border justify-content-around align-items-start">
+            <div class="col-sm-3 bg-success">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+            <div class="col-sm-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia vitae omnis consequatur, ipsa sequi, est voluptatum, nostrum iusto laboriosam qui. Molestias, nihil a! Facere saepe quam laborum repellendus officiis modi, similique impedit omnis. Ratione saepe exercitationem placeat non odit perferendis architecto eos accusamus quia voluptatem maxime nemo recusandae, vitae porro explicabo. Vero enim consectetur temporibus animi expedita cum commodi?
+            </div>
+            <div class="col-sm-3 bg-success">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+        <div class="row border justify-content-around align-items-end">
+            <div class="col-sm-3 bg-primary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+            <div class="col-sm-3 bg-danger">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia vitae omnis consequatur, ipsa sequi, est voluptatum, nostrum iusto laboriosam qui. Molestias, nihil a! Facere saepe quam laborum repellendus officiis modi, similique impedit omnis. Ratione saepe exercitationem placeat non odit perferendis architecto eos accusamus quia voluptatem maxime nemo recusandae, vitae porro explicabo. Vero enim consectetur temporibus animi expedita cum commodi?
+            </div>
+            <div class="col-sm-3 bg-primary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+        <div class="row border justify-content-around align-items-center">
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+            <div class="col-sm-3 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia vitae omnis consequatur, ipsa sequi, est voluptatum, nostrum iusto laboriosam qui. Molestias, nihil a! Facere saepe quam laborum repellendus officiis modi, similique impedit omnis. Ratione saepe exercitationem placeat non odit perferendis architecto eos accusamus quia voluptatem maxime nemo recusandae, vitae porro explicabo. Vero enim consectetur temporibus animi expedita cum commodi?
+            </div>
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+        <div class="row border justify-content-around align-items-center">
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+            <div class="col-sm-3 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea officia vitae omnis consequatur, ipsa sequi, est voluptatum, nostrum iusto laboriosam qui. Molestias, nihil a! Facere saepe quam laborum repellendus officiis modi, similique impedit omnis. Ratione saepe exercitationem placeat non odit perferendis architecto eos accusamus quia voluptatem maxime nemo recusandae, vitae porro explicabo. Vero enim consectetur temporibus animi expedita cum commodi?
+            </div>
+            <div class="col-sm-3 bg-warning">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, eligendi quia? Natus impedit ex modi accusantium hic. Commodi nesciunt nostrum iusto? Sunt cupiditate assumenda aspernatur quod tenetur facilis cum saepe.
+            </div>
+        </div><br/>
+        <div class="row border justify-content-around align-items-center">
+            <div class="col-2 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dignissimos.
+            </div>
+            <div class="col-2 bg-primary">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nesciunt?
+            </div>
+            <div class="col-2 bg-success">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil deleniti atque consequatur cum dignissimos temporibus. Quis ratione neque cum laudantium officiis earum optio est fugiat illo ab incidunt, id architecto!
+            </div>
+            <div class="col-2 bg-primary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur.
+            </div>
+            <div class="col-2 bg-primary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur.
+            </div>
+        </div><br/>
+        We can make the above grid as follows, using align-self-start/end/center/baseline/stretch on individual divs in the columns.
+        <div class="row border justify-content-around align-items-center">
+            <div class="col-2 bg-primary align-self-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dignissimos.
+            </div>
+            <div class="col-2 bg-primary align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nesciunt?
+            </div>
+            <div class="col-2 bg-success">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil deleniti atque consequatur cum dignissimos temporibus. Quis ratione neque cum laudantium officiis earum optio est fugiat illo ab incidunt, id architecto!
+            </div>
+            <div class="col-2 bg-primary align-self-end">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur.
+            </div>
+            <div class="col-2 bg-primary align-self-start">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur.
+            </div>
+        </div><br/>
+        <div class="row border justify-content-between">
+            <div class="col-md-6 col-lg-5 bg-danger">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis excepturi ab dignissimos et veniam in libero at quos ut sunt?
+            </div>
+            <div class="col-md-6 col-lg-5 bg-danger">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, commodi tenetur cupiditate natus iusto impedit a. Voluptatem tenetur quaerat excepturi.
+            </div>
+        </div><br/>
+    </div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+jumbotron background:
+https://unsplash.com/photos/O5uri6kQHQQ
+or,
+https://unsplash.com/photos/ICo7HfCYgrs
+
+card pics:
+https://unsplash.com/photos/yACpBcInUos
+https://unsplash.com/photos/GfmIT_pseDQ
+https://unsplash.com/photos/trYl7JYATH0
+
+font-awesome:
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
