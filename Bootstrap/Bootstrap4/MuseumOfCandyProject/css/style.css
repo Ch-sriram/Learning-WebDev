@@ -1,0 +1,66 @@
+body {
+    background: #F5D9DF;
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+/* Cropping the Image */
+#headingImage {
+    padding: 0;
+    overflow: hidden;
+}
+
+#headingImage img {
+    margin: -31.5% 0;
+}
+
+
+/* Usage of a media query */
+@media (max-width: 1500px) {
+    #headingGroup h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    #headingGroup h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
