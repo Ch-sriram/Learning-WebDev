@@ -54,16 +54,86 @@
           <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
         </div>
       </div>
-      <div id="headingImage" class="col-lg-6">
-        <img class="img-fluid" src="https://source.unsplash.com/faqm2syfUIE" alt="">
+      <div id="headingImage" class="col-lg-6 Image">
+        <img class="img-fluid" src="https://source.unsplash.com/faqm2syfUIE" alt="Image of a Blue Gloved Hand holding a Donut">
       </div>
     </div>
   </section>
+
+  <!-- Second Section -->
+  <section class="container-fluid px-0">
+
+    <!-- First -->
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1 Image img-edit">
+        <img src="https://source.unsplash.com/-iX-0JI8-0Y" alt="Image of Donuts on Straws which are suspended on Small-sized Glass Jars filled with Milk" class="img-fluid"/>
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2 blurb mb-5 mb-md-0">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8">
+            <h2>MUSEUM OF CANDY</h2>
+            <img class="lollipop d-none d-lg-inline" class="img-fluid" src="./assets/lollipop_icon.png" alt="image of a lollipop"/>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt amet debitis cupiditate dolorum in. Reiciendis voluptatibus tenetur cum illo in repellendus temporibus ducimus animi harum nesciunt voluptatem ea, dolorum laborum tempore? Aut minus commodi, animi laborum doloribus harum fugiat blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, sapiente!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second -->
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 Image img-edit">
+        <img src="https://source.unsplash.com/Fq54FqucgCE" alt="Image of Donuts" class="img-fluid"/>
+      </div>
+      <div class="col-md-6 text-center order-1 blurb mb-5 mb-md-0">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8">
+            <h2>MUSEUM OF CANDY</h2>
+            <img class="lollipop d-none d-lg-inline" class="img-fluid" src="./assets/lollipop_icon.png" alt="image of a lollipop"/>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt amet debitis cupiditate dolorum in. Reiciendis voluptatibus tenetur cum illo in repellendus temporibus ducimus animi harum nesciunt voluptatem ea, dolorum laborum tempore? Aut minus commodi, animi laborum doloribus harum fugiat blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, sapiente!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third -->
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1 Image img-edit">
+        <img src="https://source.unsplash.com/AmMOtjmllmw" alt="Image of Easter Egg Shaped Candies" class="img-fluid"/>
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2 blurb mb-5 mb-md-0">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8">
+            <h2>MUSEUM OF CANDY</h2>
+            <img class="lollipop d-none d-lg-inline" class="img-fluid" src="./assets/lollipop_icon.png" alt="image of a lollipop"/>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt amet debitis cupiditate dolorum in. Reiciendis voluptatibus tenetur cum illo in repellendus temporibus ducimus animi harum nesciunt voluptatem ea, dolorum laborum tempore? Aut minus commodi, animi laborum doloribus harum fugiat blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, sapiente!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Custom JS & jQuery [Internal Script] -->
+  <script>
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
 </body>
 </html>
